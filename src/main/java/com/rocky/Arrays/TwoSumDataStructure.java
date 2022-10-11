@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class TwoSumDataStructure {
 
+    //add – O(1) runtime, find – O(n) runtime, O(n) space
+
     private Map<Integer, Integer> table = new HashMap<Integer, Integer>();
     public void add(int input) {
         int count = table.containsKey(input) ? table.get(input) : 0;
